@@ -1,3 +1,54 @@
-#unassigned-complaints-button {
-	width: 25%;	
+.unassigned-complaints-button {
+	width: 25%;
+	margin: auto;	
+}
+
+.small-button {
+	width: 5%;
+}
+
+#first-input {
+	margin-left: 155px;
+}
+
+.dynamic-inputs {
+	margin-top: -5px;
+}
+
+.all-complaints-button {
+	width: 25%;
+	margin: auto;
+}
+
+.form-center{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.show-button {
+	width: 25%;
+	height: 30px;
+	margin: auto;
+	margin-top: 10px;
+	background-color: rgba(0,153,255,0.9);
+	color: white;
+	border: 0px solid white;
+}
+
+.link-show {
+	color: white;
+	text-decoration: none;
+}
+
+.show-button:hover{
+	background-color: white;
+	text-decoration: underline;
+	border: 0.5px solid rgba(0,153,255,0.9);
+	transition: background-color 0.8s, border 0.4s, text-decoration 0.8s;
+}
+
+.link-show:hover{
+	color: rgba(0,153,255,0.9);
+	transition: color 0.4s;
 }
